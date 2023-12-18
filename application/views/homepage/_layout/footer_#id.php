@@ -1,54 +1,75 @@
-<!-- footer Start -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-manu">
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-            <li><a href="service.html">How it works</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-          </ul>
+<!-- Start Footer Area -->
+<footer class="footer-area footer-eleven">
+  <!-- Start Footer Top -->
+  <div class="footer-top">
+    <div class="container">
+      <div class="inner-content">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="footer-widget f-about">
+              <div class="logo">
+                <a class="footer-logo" href="index.html">
+                  <img src="<?=home_assets()?>images/logo.svg" alt="Logo">
+                </a>
+              </div>
+              <p>
+                Making the world a better place through constructing elegant
+                hierarchies.
+              </p>
+              <p class="copyright-text">
+                <span>© 2024 Ayro UI.</span>Designed and Developed by
+                <a href="javascript:void(0)" rel="nofollow"> Ayro UI </a>
+              </p>
+            </div>
+            <!-- End Single Widget -->
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="footer-widget f-link">
+              <h5>Solutions</h5>
+              <ul>
+                <li><a href="javascript:void(0)">Marketing</a></li>
+                <li><a href="javascript:void(0)">Analytics</a></li>
+                <li><a href="javascript:void(0)">Commerce</a></li>
+                <li><a href="javascript:void(0)">Insights</a></li>
+              </ul>
+            </div>
+            <!-- End Single Widget -->
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="footer-widget f-link">
+              <h5>Support</h5>
+              <ul>
+                <li><a href="javascript:void(0)">Pricing</a></li>
+                <li><a href="javascript:void(0)">Documentation</a></li>
+                <li><a href="javascript:void(0)">Guides</a></li>
+                <li><a href="javascript:void(0)">API Status</a></li>
+              </ul>
+            </div>
+            <!-- End Single Widget -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="footer-widget newsletter">
+              <h5>Subscribe</h5>
+              <p>Subscribe to our newsletter for the latest updates</p>
+              <form action="#" method="get" target="_blank" class="newsletter-form">
+                <input name="EMAIL" placeholder="Email address" required="required" type="email" />
+                <div class="button">
+                  <button class="sub-btn">
+                    <i class="lni lni-envelope"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- End Single Widget -->
+          </div>
         </div>
-        <p class="copyright mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
-            href="http://www.themefisher.com">Themefisher</a>. All rights reserved.
-          <br> Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap
-            Templates</a>
-        </p>
       </div>
     </div>
   </div>
+  <!--/ End Footer Top -->  
 </footer>
-
-<!--Scroll to top-->
-<div id="scroll-to-top" class="scroll-to-top">
-  <span class="icon ion-ios-arrow-up"></span>
-</div>
-
-    <!-- 
-    Essential Scripts
-    =====================================-->
-
-
-    <!-- Main jQuery -->
-    <script src="<?=home_assets()?>plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 3.1 -->
-    <script src="<?=home_assets()?>plugins/bootstrap/bootstrap.min.js"></script>
-    <!-- slick Carousel -->
-    <script src="<?=home_assets()?>plugins/slick/slick.min.js"></script>
-    <script src="<?=home_assets()?>plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- filter -->
-    <script src="<?=home_assets()?>plugins/shuffle/shuffle.min.js"></script>
-    <script src="<?=home_assets()?>plugins/SyoTimer/jquery.syotimer.min.js"></script>
-    <!-- Google Map -->
-    <script src="<?=home_assets()?>https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
-    <script src="<?=home_assets()?>plugins/google-map/map.js"></script>
-
-    <script src="<?=home_assets()?>js/script.js"></script>
-
-    </body>
-
-    </html>
-   
+  <!--/ End Footer Area -->
